@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#3a3385,#1f1b4d);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    text-align:center;
+    color:white;
+}
+
+h1{
+    margin-bottom:30px;
+}
+
+.btn{
+    display:block;
+    width:280px;
+    margin:15px auto;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.normal{
+    background:#00aaff;
+    color:white;
+}
+
+.robot{
+    background:#00cc66;
+    color:white;
+}
+
+.evil{
+    background:#ff3355;
+    color:white;
+}
+.Memory{
+    background-color: pink;
+    color: #ffffff;
+}
+.Snake{
+      background-color: rgb(3, 194, 0);
+    color: #ffffff;  
+}
+.Bird{
+        background-color: rgb(236, 232, 0);
+    color: #ffffff;
+}
